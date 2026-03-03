@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GigBoss</string>
+    <string name="accessibility_service_description">GigBoss background agent required for reading and analyzing gig application offers to calculate maximum profitability on your dashboard.</string>
+</resources>

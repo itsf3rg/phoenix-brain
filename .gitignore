@@ -1,0 +1,27 @@
+# Android
+android/.gradle
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+
+# Logs and Debug
+*.log
+backend/window_dump.xml
+backend/window_dump*.xml
+backend/screen.png
+
+# Antigravity/Gemini
+.gemini/
+backups/
+
+# System
+.DS_Store
+Thumbs.db
