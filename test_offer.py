@@ -1,7 +1,7 @@
 import requests
 import time
 
-URL = "http://127.0.0.1:8000/parse_and_evaluate"
+URL = "https://phoenix-brain.onrender.com/parse_and_evaluate"
 
 payloads = [
     {

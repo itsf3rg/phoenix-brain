@@ -4,7 +4,7 @@ import json
 import time
 
 async def inject_mocks():
-    uri = "ws://localhost:8000/ws"
+    uri = "wss://phoenix-brain.onrender.com/ws"
     
     mock_offers = [
         {

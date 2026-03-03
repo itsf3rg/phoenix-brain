@@ -1,4 +1,4 @@
-Total payloads to process: 255
+Total payloads to process: 712
 
 
 [VALID STR DETECTED - Payload 11]
@@ -209,7 +209,283 @@ PARSED: {'fare': 24.02, 'pickup_miles': 1.2, 'trip_miles': 35.0, 'total_miles': 
 RAW OCR: 3:20 > 51 ehoenix $24.02 Mesa uberX Exclusive Gilbert $23.63/active hr (est.) 7 min (1.2 mi) ★ 4.95 ) +$4.75 included Fountain Hills Avg. wait time at pickup: 1 min 53 mins (35.0 mi) 95 81 E Indian School Rd &N 4th St, Phoenix A Long trip (45+ min) Apacme Accept X X N Warner Dr &W Teepee St, Apache Junction
 PARSED: {'fare': 24.02, 'pickup_miles': 1.2, 'trip_miles': 35.0, 'total_miles': 36.2, 'pickup_minutes': 1, 'total_minutes': 54}
 
+[VALID STR DETECTED - Payload 279]
+RAW OCR: E 3:23 NAN TS 8 60 +4.25 -17-S- +$975 S725 2 UberX EN Trip Radar 2 $21.25 $41.13/active hr (est.) * 4.95 O Verified 9 +$3.50 included 4 min (0.9 mi) 51 $5.25 Avg. wait time at pickup: 1 min 26 mins (12.9 mi) Match CAMELBACK N 5th Ave & WWhitton Ave, Phoenix EAST X N Paradise Village Pkwy & Paradise Valley Mall, Phoenix 81 <
+PARSED: {'fare': 21.25, 'pickup_miles': 0.9, 'trip_miles': 12.9, 'total_miles': 13.8, 'pickup_minutes': 1, 'total_minutes': 27}
+
+[VALID STR DETECTED - Payload 280]
+RAW OCR: 3:23 → Jale 17, UberX Trip Radar2 $21.25 51 $41.13/active hr (est.) * 4.95 O Verified 9 +$3.50 included 4 min (0.9 mi) Avg. wait time at pickup: 1 min 26 mins (12.9 mi) 5 ll81 Paradise Valley Match N 5th Ave & WWhitton Ave, Phoenix Scottsdale < X N Paradise Village Pkwy & Paradise Valley Mall, Phoenix S
+PARSED: {'fare': 21.25, 'pickup_miles': 0.9, 'trip_miles': 12.9, 'total_miles': 13.8, 'pickup_minutes': 1, 'total_minutes': 27}
+
+[VALID STR DETECTED - Payload 281]
+RAW OCR: 3:23> ndale Pho UberX $27.55 C New requests 51 $36.73/active hr (est.) 4.89 O Verified 9 +$5.00 included 17 min (4.3 mi) Avg. wait time at pickup: 1 min 27 mins (19.6 mi) Scottsdale Scottsdale E Camelback Rd &N 29th St, Phoenix E Cavasson Blvd &N Hayden Rd, Match Maricopa .ll 81 < X sa Ble 10
+PARSED: {'fare': 27.55, 'pickup_miles': 4.3, 'trip_miles': 19.6, 'total_miles': 23.9, 'pickup_minutes': 1, 'total_minutes': 28}
+
+[VALID STR DETECTED - Payload 400]
+RAW OCR: 3:24 → A DE N 35TH AVE W GRAND AVE $8.28 $4.25 I-17s +$8.0 +$9.75 2 UberX Exclusive $20.70/active hr (est.) 7 min (2.2 mi) PhoenixX 5.00 9 +$2.75 included N 17th Ave & W Montebello Ave, N 19TH AVE Avg. wait time at pickup: 1 min 16 mins (3.8 mi) W Bethany Home Rd, Glendale Accept || W BROADWORD 5 ll $ 81 < N 7TH AVE N CENTRAL AVE er
+PARSED: {'fare': 81.0, 'pickup_miles': 2.2, 'trip_miles': 3.8, 'total_miles': 6.0, 'pickup_minutes': 1, 'total_minutes': 17}
+
+[VALID STR DETECTED - Payload 401]
+RAW OCR: N A3RD AVE 3:24 SANTA RANDE N 35TH AVE WGRAND-AVE- 2 UberX Exclusive $8.28 $20.70/active hr (est.) 5.00 7 min (2.2 mi) I-17s- +$2.75 included Phoenix N 17th Ave & W Montebello Ave, Avg. wait time at pickup: 1 min 16 mins (3.8 mi) 1TH AVE W Bethany Home Rd, Glendale Accept < ll $ 81 co N 7TH AVE Ph
+PARSED: {'fare': 81.0, 'pickup_miles': 2.2, 'trip_miles': 3.8, 'total_miles': 6.0, 'pickup_minutes': 1, 'total_minutes': 17}
+
+[VALID STR DETECTED - Payload 402]
+RAW OCR: N 43 RD AVE 3:2 SANTA GRANDE 2 N 35TH AVE W GRAND-AVE UberX Exclusive $8.28 $20.70/active hr (est.) ★ 5.00 9 +$2.75 included 7 min (2.2 mi) I-17-S- PhoenixX N 17th Ave & W Montebello Ave, Avg. wait time at pickup: 1 min 16 mins (3.8 mi) 19TH AVE W Bethany Home Rd, Glendale Accept l 8 N 7TH AVE P
+PARSED: {'fare': 8.28, 'pickup_miles': 2.2, 'trip_miles': 3.8, 'total_miles': 6.0, 'pickup_minutes': 1, 'total_minutes': 17}
+
+[VALID STR DETECTED - Payload 403]
+RAW OCR: N 43 RD AVE 3:24 SANTA GRANDE 2 N 35TH AVE W GRAND-AVE UberX Exclusive $8.28 $20.70/active hr (est.) 5.00 9 +$2.75 included 7 min (2.2 mi) I-17-S- Phoenix N 17th Ave & W Montebello Ave, Avg. wait time at pickup: 1 min 16 mins (3.8 mi) 19TH AVE W Bethany Home Rd, Glendale Accept X 8 N 7TH AVE P
+PARSED: {'fare': 8.28, 'pickup_miles': 2.2, 'trip_miles': 3.8, 'total_miles': 6.0, 'pickup_minutes': 1, 'total_minutes': 17}
+
+[VALID STR DETECTED - Payload 404]
+RAW OCR: N 43 RD AVE 3:2 SANTA GRANDE 2 N 35TH AVE W GRAND-AVE UberX Exclusive $8.28 $20.70/active hr (est.) 5.00 9 +$2.75 included 7 min (2.2 mi) I-17-S- Phoenix N 17th Ave & W Montebello Ave, Avg. wait time at pickup: 1 min 16 mins (3.8 mi) 19TH AVE W Bethany Home Rd, Glendale Accept l X 8 N 7TH AVE P
+PARSED: {'fare': 8.28, 'pickup_miles': 2.2, 'trip_miles': 3.8, 'total_miles': 6.0, 'pickup_minutes': 1, 'total_minutes': 17}
+
+[VALID STR DETECTED - Payload 413]
+RAW OCR: +$4.25 $8.75 9.75 +$7.25 19TH AVE $9.16 N 7TH AVE 2 UberX Exclusive N CENTRAL AVE +$3 $23.90/active hr (est.) 2 min (0.2 mi) * 5.00 9 +$3.00 included +$5 N 7THST E Thomas Rd, Phoenix LS Avg. wait time at pickup: 1 min 20 mins (5.4 mi) Accept N 5th Ave & W Montecito Ave, Phoenix ll 581 < 51 X + +$5.2 +$2.25 SH
+PARSED: {'fare': 9.16, 'pickup_miles': 0.2, 'trip_miles': 5.4, 'total_miles': 5.6, 'pickup_minutes': 1, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 414]
+RAW OCR: 3:29> nto Park KAL AVE N CENTRAL AVE 2 uberX 7TH ST 1S HLZ N Exclusive $9.16 $23.90/active hr (est.) * 5.00 9 +$3.00 included 2 min (0.2 mi) 51 Avg. wait time at pickup: l min 20 mins (5.4 mi) N 5th Ave & W Montecito Ave, Phoenix E Thomas Rd, Phoenix Accept N 24TH ST il 81 < X N 3 Ph ite irp
+PARSED: {'fare': 9.16, 'pickup_miles': 0.2, 'trip_miles': 5.4, 'total_miles': 5.6, 'pickup_minutes': 2, 'total_minutes': 22}
+
+[VALID STR DETECTED - Payload 415]
+RAW OCR: 3:25 9 ALAVE o Park NCENTRAL AVE 2 UberX Exclusive $9.16 $23.90/active hr (est.) 51 2 min (0.2 mi) * 5.00 9 +$3.00 included 20 mins (5.4 mi) N 24TH ST Avg. wait time at pickup: l min N 5th Ave & W Montecito Ave, Phoenix E Thomas Rd, Phoenix Accept 9S l 81 X E BASELIK RD ni irb at rt(
+PARSED: {'fare': 9.16, 'pickup_miles': 0.2, 'trip_miles': 5.4, 'total_miles': 5.6, 'pickup_minutes': 2, 'total_minutes': 22}
+
+[VALID STR DETECTED - Payload 416]
+RAW OCR: 3:25 Park LAVE NCENTRAL AVE S HIZ N 2 UberX Exclusive $9.16 $23.90/active hr (est.) 51 2 min (0.2 mi) * 5.00 9 +$3.00 included 20 mins (5.4 mi) N 24TH ST Avg. wait time at pickup: 1 min E Thomas Rd, Phoenix N 5th Ave & W Montecito Ave, Phoenix Accept ll 581 X E BASELIN, RD E MC nix rb ati t(
+PARSED: {'fare': 9.16, 'pickup_miles': 0.2, 'trip_miles': 5.4, 'total_miles': 5.6, 'pickup_minutes': 1, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 417]
+RAW OCR: 3:25 Park LAVE N CENTRAL AVE 1S HIZ N 2 UberX Exclusive $9.16 $23.90/active hr (est.) 51 2 min (0.2 mi) * 5.00 9 +$3.00 included 20 mins (5.4 mi) N 24TH ST Avg. wait time at pickup: 1 min E Thomas Rd, Phoenix Accept .581 N 5th Ave & W Montecito Ave, Phoenix N X E BASELINE RD E MC nix rb ati t(
+PARSED: {'fare': 9.16, 'pickup_miles': 0.2, 'trip_miles': 5.4, 'total_miles': 5.6, 'pickup_minutes': 1, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 425]
+RAW OCR: 3:25 > VE 60 10 2 UberX F$9.15 4.95 $12.43 Exclusive $20.16/active hr (est.) 725 8 min (1.9 mi) +$3.75 included W Thomas Rd, Phoenix •INCANTO L Reservation 4$8,25 Avg. wait time at pickup: 1 min 28 mins (9.7 mi) Accept 5l481 Phoenix X S 41st Ave & W Southern Ave, Phoenix X N TU HI
+PARSED: {'fare': 12.43, 'pickup_miles': 1.9, 'trip_miles': 9.7, 'total_miles': 11.6, 'pickup_minutes': 1, 'total_minutes': 29}
+
+[VALID STR DETECTED - Payload 426]
+RAW OCR: 3:25 → MARvALE TRELLA 60 10 2 UberX Exclusive $12.43 4.95 $20.16/active hr (est.) 8 min (1.9 mi) +$3.75 included W Thomas Rd, Phoenix 28 mins (9.7 mi) Avg. wait time at pickup: 1 min L Reservation o •ICANTO Accept 5ll581 Phoenix S 41st Ave &W Southern Ave, Phoenix X C F A KE
+PARSED: {'fare': 12.43, 'pickup_miles': 1.9, 'trip_miles': 9.7, 'total_miles': 11.6, 'pickup_minutes': 1, 'total_minutes': 29}
+
+[VALID STR DETECTED - Payload 427]
+RAW OCR: 10 3:25 > STRELLA 2 UberX 60 10 4.95 Exclusive $12.43 $20.16/active hr (est.) 8 min (1.9 mi) +$3.75 included W Thomas Rd, Phoenix 28 mins (9.7 mi) Avg. wait time at pickup: 1 min L Reservation o •ICANTO Accept 5 ll 81 Phoenix sOUTH X X S 41st Ave &W Southern Ave, Phoenix CA P Int Air KE L
+PARSED: {'fare': 12.43, 'pickup_miles': 1.9, 'trip_miles': 9.7, 'total_miles': 11.6, 'pickup_minutes': 1, 'total_minutes': 29}
+
+[VALID STR DETECTED - Payload 428]
+RAW OCR: 10 3:25 > sTRELLA 2 UberX 60 10 4.95 Exclusive $12.43 $20.16/active hr (est.) 8 min (1.9 mi) +$3.75 included W Thomas Rd, Phoenix 28 mins (9.7 mi) Avg. wait time at pickup: 1 min L Reservation o •JCANTO Accept 5 ll 81 Phoenix sOUTH X X S 41st Ave &W Southern Ave, Phoenix CA P Int Air KE L
+PARSED: {'fare': 12.43, 'pickup_miles': 1.9, 'trip_miles': 9.7, 'total_miles': 11.6, 'pickup_minutes': 1, 'total_minutes': 29}
+
+[VALID STR DETECTED - Payload 429]
+RAW OCR: 10 3:25 > sTRELLA 2 UberX 8 60 4.95 10 Exclusive $12.43 $20.16/active hr (est.) 8 min (1.9 mi) +$3.75 included W Thomas Rd, Phoenix E•1CANTO 28 mins (9.7 mi) Avg. wait time at pickup: 1 min Phoenix L Reservation Accept l$ 81 sOUTH S 4lst Ave & W Southern Ave, Phoenix < X X CA P Int Air
+PARSED: {'fare': 81.0, 'pickup_miles': 1.9, 'trip_miles': 9.7, 'total_miles': 11.6, 'pickup_minutes': 1, 'total_minutes': 29}
+
+[VALID STR DETECTED - Payload 430]
+RAW OCR: 10 3:25 > STRELLA 2 UberX 60 10 4.95 Exclusive $12.43 $20.16/active hr (est.) 8 min (1.9 mi) +$3.75 included W Thomas Rd, Phoenix 28 mins (9.7 mi) E•]CANTO Avg. wait time at pickup: 1 min L Reservation 5 ll 81 Phoenix Accept sOUTH X X S 41st Ave &W Southern Ave, Phoenix CA P Int Air KE L
+PARSED: {'fare': 12.43, 'pickup_miles': 1.9, 'trip_miles': 9.7, 'total_miles': 11.6, 'pickup_minutes': 1, 'total_minutes': 29}
+
+[VALID STR DETECTED - Payload 454]
+RAW OCR: D AVE 3:29 SANTA RANDE N 35TH AVE 2 UberX Exclusive $14.61 $21.91/active hr (est.) 23 min (5.8 mi) I-17-s * 4.85 9 +$8.75 included W Osborn Rd, Phoenix 16 mins (4.5 mi) AVE Avg. wait time at pickup: l min LO BH6T N W Indian School Rd, Phoenix Accept 7H AVE 7A X CENTRAL AVE NCENTRAL AVE
+PARSED: {'fare': 14.61, 'pickup_miles': 4.5, 'trip_miles': 5.8, 'total_miles': 10.3, 'pickup_minutes': 16, 'total_minutes': 39}
+
+[VALID STR DETECTED - Payload 455]
+RAW OCR: 3:29 → HOME RD RE SANTA GRANDE N 43RD AVE N 35TH AVE -10 E 2 uberX Exclusive $14.61 $21,91/active hr (est.) 23 min (5.8 mi) * 4.85 ) +$8.75 included W Osborn Rd, Phoenix S-LI-- 17 Avg. wait time at pickup: l min 16 mins (4.5 mi) Accept WIndian School Rd, Phoenix N 19TH AVE < X 'h
+PARSED: {'fare': 14.61, 'pickup_miles': 4.5, 'trip_miles': 5.8, 'total_miles': 10.3, 'pickup_minutes': 16, 'total_minutes': 39}
+
+[VALID STR DETECTED - Payload 456]
+RAW OCR: e 3:29 > HOME RD IRE AVE SANTA GRANDE N 35TH AVE HISE N -10-E 2 UberX Exclusive AVEEN $14.61 $21,91/active hr (est.) * 4.85 9 +$8.75 included 23 min (5.8 mi) W Osborn Rd, Phoenix -17-S- 17 Avg. wait time at pickup: l min 16 mins (4.5 mi) Accept W Indian School Rd, Phoenix AV6 H16I N < ll81t TVE X N 7TH AVE h
+PARSED: {'fare': 14.61, 'pickup_miles': 4.5, 'trip_miles': 5.8, 'total_miles': 10.3, 'pickup_minutes': 16, 'total_minutes': 39}
+
+[VALID STR DETECTED - Payload 457]
+RAW OCR: e 3:29 > HOME RD IRE AVE SANTA GRANDE N 35TH AVE HISE N 2 UberX Exclusive $14.61 AVEEN $21,91/active hr (est.) * 4.85 ) +$8.75 included 23 min (5.8 mi) W Osborn Rd, Phoenix -17-S- 17 Avg. wait time at pickup: 1 min 16 mins (4.5 mi) Accept WIndian School Rd, Phoenix AV6 H16I N < ll81t TVE X N 7TH AVE h
+PARSED: {'fare': 14.61, 'pickup_miles': 4.5, 'trip_miles': 5.8, 'total_miles': 10.3, 'pickup_minutes': 1, 'total_minutes': 24}
+
+[VALID STR DETECTED - Payload 458]
+RAW OCR: e 3:30 HOME RD IRE AVE SANTA GRANDE N 35TH AVE -10-E 2 UberX Exclusive $14.61 AVEEN $21,91/active hr (est.) * 4.85 9 +$8.75 included 23 min (5.8 mi) W Osborn Rd, Phoenix -17-S- 17 Avg. wait time at pickup: l min 16 mins (4.5 mi) Accept WIndian School Rd, Phoenix AV6 HL6I N < ll81t TVE X N 7TH AVE h
+PARSED: {'fare': 14.61, 'pickup_miles': 4.5, 'trip_miles': 5.8, 'total_miles': 10.3, 'pickup_minutes': 16, 'total_minutes': 39}
+
+[VALID STR DETECTED - Payload 500]
+RAW OCR: 3:35→ UberX Exclusive Glendale $109.81 $32.62/active hr (est.) ★ 4.90 9 +$3.75 included 6 min (1.5 mi) Phoenix Circle Dr & St Josephs Hospital, Avg. wait time at pickup: 1 min 3 hr 15 min (175.7 mi) 17 A Long trip (45+ min) E 49th Ln & S Montana Ave, Yuma Accept Phoenix l82 X 5
+PARSED: {'fare': 109.81, 'pickup_miles': 1.5, 'trip_miles': 175.7, 'total_miles': 177.2, 'pickup_minutes': 1, 'total_minutes': 16}
+
+[VALID STR DETECTED - Payload 501]
+RAW OCR: 3:35 → 10 2 UberX Exclusive $109.81 $32.62/active hr (est.) ★ 4.90 9 +$3.75 included 6 min (1.5 mi) Phoenix Circle Dr & St Josephs Hospital, Avg. wait time at pickup: 1 min 3 hr 15 min (175.7 mi) 238 E 49th Ln & S Montana Ave, Yuma A Long trip (45+ min) Accept < ll 82 TPHenix X
+PARSED: {'fare': 109.81, 'pickup_miles': 1.5, 'trip_miles': 175.7, 'total_miles': 177.2, 'pickup_minutes': 1, 'total_minutes': 16}
+
+[VALID STR DETECTED - Payload 502]
+RAW OCR: 3:35 2 UberX 60 Exclusive $109.81l $32.62/active hr (est.) 6 min (1.5 mi) * 4.90 9 +$3.75 included Phoenix Circle Dr & St Josephs Hospital, 85 Avg. wait time at pickup: 1 min 3 hr 15 min (175.7 mi) E 49th Ln & S Montana Ave, Yuma A Long trip (45+ min) Accept .ll 82 X X
+PARSED: {'fare': 109.81, 'pickup_miles': 1.5, 'trip_miles': 175.7, 'total_miles': 177.2, 'pickup_minutes': 1, 'total_minutes': 16}
+
+[VALID STR DETECTED - Payload 503]
+RAW OCR: 3:35 UberX Exclusive 60 $109.81l $32.62/active hr (est.) 6 min (1.5 mi) * 4.90 9 +$3.75 included Phoenix Circle Dr & St Josephs Hospital, 85 Avg. wait time at pickup: 1 min 3 hr 15 min (175.7 mi) E 49th Ln & S Montana Ave, Yuma Long trip (45+ min) Accept .ll 82 X X
+PARSED: {'fare': 109.81, 'pickup_miles': 1.5, 'trip_miles': 175.7, 'total_miles': 177.2, 'pickup_minutes': 1, 'total_minutes': 16}
+
+[VALID STR DETECTED - Payload 504]
+RAW OCR: 3:35 UberX Exclusive 60 $109.81 $32.62/active hr (est.) 6 min (1.5 mi) ★ 4.90 9 +$3.75 included Phoenix Circle Dr & St Josephs Hospital, 85 Avg. wait time at pickup: 1 min 3 hr 15 min (175.7 mi) E 49th Ln & S Montana Ave, Yuma A Long trip (45+ min) Accept < ill 82 X
+PARSED: {'fare': 109.81, 'pickup_miles': 1.5, 'trip_miles': 175.7, 'total_miles': 177.2, 'pickup_minutes': 1, 'total_minutes': 16}
+
+[VALID STR DETECTED - Payload 516]
+RAW OCR: VE m 3:35 → 10-E 17S BHL6I N 2 UberX Exclusive $8.91 Phoenix 7 min (1.6 mi) T 1S HIZ N $16.20/active hr (est.) 4.91 ) +$4.25 included E Mitchell Dr, Phoenix 25 mins (6.4 mi) Avg. wait time at pickup: 1 min L Reservation N 16TH ST E Wier Ave & S 7th St, Phoenix Accept E WASHINGTON ST 5.ll 82 < N 24TH ST X X N 32ND ST ho H ter AV RD
+PARSED: {'fare': 8.91, 'pickup_miles': 1.6, 'trip_miles': 6.4, 'total_miles': 8.0, 'pickup_minutes': 1, 'total_minutes': 26}
+
+[VALID STR DETECTED - Payload 517]
+RAW OCR: 3:35 60 10 ENCANTO $8.91 Phoenx 2 uberX Exclusive $16.20/active hr (est.) ★ 4.91 4 +$4.25 included 7 min (1.6 mi) E Mitchell Dr, Phoenix Avg. wait time at pickup: 1 min 25 mins (6.4 mi) E Wier Ave & S 7th St, Phoenix L Reservation Accept < .ll$ 82 CAMELBA EAST Phoenix S. Harbor Internation Airport(PF X
+PARSED: {'fare': 82.0, 'pickup_miles': 1.6, 'trip_miles': 6.4, 'total_miles': 8.0, 'pickup_minutes': 1, 'total_minutes': 26}
+
+[VALID STR DETECTED - Payload 518]
+RAW OCR: 3:35 60 10 ENCANTO $8.91 Phoenx 2 uberx Exclusive $16.20/active hr (est.) ★ 4.91 ) +$4.25 included min (1.6 mi) E Mitchell Dr, Phoenix Avg. wait time at pickup: 1 min 25 mins (6.4 mi) E Wier Ave & S 7th St, Phoenix L Reservation Accept CAMELBAC EAST Phoenix Sky Harbor International Airport (PHX, < X RD
+PARSED: {'fare': 8.91, 'pickup_miles': 1.6, 'trip_miles': 6.4, 'total_miles': 8.0, 'pickup_minutes': 1, 'total_minutes': 26}
+
+[VALID STR DETECTED - Payload 519]
+RAW OCR: :35 -10-E Izl7S 17 s- AVE H16I N $8.91 2 UberX Exclusive TH A' $0.00 $6.20/active hr (est.) 7 min (1.6 mi) 1% Cplock Gold N 7TI * 4.91 ) +$4.25 included Phoenix LS HLL N E Mitchell Dr, Phoenix ervatiön 17% Avg. wait time at pickup: 1 min 25 mins$425 next trip E Wier Ave & S 7th St, Phoenix N 16TH ST E WASHINGTON .l82 E B/ N 24TH ST < E SO l N P 371 pts In Ai IE
+PARSED: {'fare': 8.91, 'pickup_miles': 0.0, 'trip_miles': 1.6, 'total_miles': 1.6, 'pickup_minutes': 1, 'total_minutes': 26}
+
+[VALID STR DETECTED - Payload 561]
+RAW OCR: 3:36 → oenix College Encanto Golf Course nt 2 UberX $10.23 Exclusive $29.23/active hr (est.) 9 min (2.5 mi) KFC Medical Center * 4.81 9 +$6.00 included N 19th Ave, Phoenix N 7TH AVE || St. Joseph's Hospital and Avg. wait time at pickup: 1 min 1l mins (2.3 mi) ll 81 Accept N 28th Dr & W Georgia Ave, Phoenix X NDN ALIC
+PARSED: {'fare': 10.23, 'pickup_miles': 2.3, 'trip_miles': 2.5, 'total_miles': 4.8, 'pickup_minutes': 1, 'total_minutes': 10}
+
+[VALID STR DETECTED - Payload 562]
+RAW OCR: 3:36> N 23RD AVE 2 UberX Exclusive $10.23 $29.23/active hr (est.) * 4.81 9 +$6.00 included 9 min (2.5 mi) W INDIAN SCHOOL RD The Rock N 19th Ave, Phoenix Avg. wait time at pickup: 1 min 11 mins (2.3 mi) .ll5 81 Charlie's Phoenix Accept N 28th Dr & W Georgia Ave, Phoenix < X la Ce Criane
+PARSED: {'fare': 10.23, 'pickup_miles': 2.3, 'trip_miles': 2.5, 'total_miles': 4.8, 'pickup_minutes': 1, 'total_minutes': 12}
+
+[VALID STR DETECTED - Payload 563]
+RAW OCR: A 3:36 ITH AVE 17) N 23RD AVE 2 UberX Exclusive $10.23 $29.23/active hr (est.) 9 min (2.5 mi) W CAMPBELL AVE N 19th Ave, Phoenix W MARYLAND AVE ill81 SETHANY HOME RD * 4.81 9 +$6.00 included 1l mins (2.3 mi) soURI AVE W CAMELBACKRD Avg. wait time at pickup: 1 min Accept X N 28th Dr & W Georgia Ave, Phoenix AVF LZ WVAN BUREN ST enc
+PARSED: {'fare': 10.23, 'pickup_miles': 2.3, 'trip_miles': 2.5, 'total_miles': 4.8, 'pickup_minutes': 1, 'total_minutes': 10}
+
+[VALID STR DETECTED - Payload 564]
+RAW OCR: A 3:37 → TH AVE 17 N 23RD AVE 2 UberX Exclusive $10.23 $29.23/active hr (est.) 9 min (2.5 mi) W CAMPBELL AVE N 19th Ave, Phoenix W MARYLAND AVE ill81 JETHANY HOME RD * 4.81 9 +$6.00 included 11 mins (2.3 mi) MIISSOURIAVE W CAMELBACKRD Avg. wait time at pickup: 1 min Accept N 28th Dr & W Georgia Ave, Phoenix X < AVE LZ WVAN BUREN ST J en
+PARSED: {'fare': 10.23, 'pickup_miles': 2.3, 'trip_miles': 2.5, 'total_miles': 4.8, 'pickup_minutes': 1, 'total_minutes': 12}
+
+[VALID STR DETECTED - Payload 565]
+RAW OCR: A 3:37 > ITH AVE 17) N 23RD AVE 2 UberX Exclusive $10.23 $29.23/active hr (est.) 9 min (2.5 mi) W MARYLAND AVE ill81 W CAMPBELL AVE N 19th Ave, Phoenix SETHANY HOME RD MIISSOURIAVE * 4.81 9 +$6.00 included W CAMELBACKRD Accept Avg. wait time at pickup: 1 min 1l mins (2.3 mi) X N 28th Dr & W Georgia Ave, Phoenix AVF LZ WVAN BUREN ST en
+PARSED: {'fare': 10.23, 'pickup_miles': 2.3, 'trip_miles': 2.5, 'total_miles': 4.8, 'pickup_minutes': 1, 'total_minutes': 10}
+
+[VALID STR DETECTED - Payload 572]
+RAW OCR: WC 3:3 AH1G N ses By The irs Brewing ax LO N 3RD AVE N 3RD AVE t +$7 2 uberX Exclusive $31.09 ek $27.43/active hr (est.) 4.95 Heard Museum 7 min (1.2 mi) Phoenix Art Museum +$5.75 included Avg. wait time at pickup: 1 min l hr (34.8 mi) WJEFFERSONST A Long trip (45+ min) 3RD ST Portraitat Hağee Park E MCD E Indian School Rd&N 4th St. Phoenix Accept X X E Penedes Dr & S Parkcrest St, Gilbert EL L HL N 1 AS <E JEFFES
+PARSED: {'fare': 31.09, 'pickup_miles': 1.2, 'trip_miles': 34.8, 'total_miles': 36.0, 'pickup_minutes': 1, 'total_minutes': 8}
+
+[VALID STR DETECTED - Payload 573]
+RAW OCR: 3:37 Park LL RD Japanese Friendship Garden EN ST E RD WA ENTRAL AVE PhoeniX 2 2N 10 $31.09 t 4.95 UberX Exclusive $27.43/active hr (est.) =-10-W 7 min (1.2 mi) HL9T N E BUCKEYE RD +$5.75 included HLL S Avg. wait time at pickup: 1 min l hr (34.8 mi) Long trip (45+ min) E Indian School Rd & N 4th St, Phoenix 5 il 81 E ROOSEVELT ST Accept E Penedes Dr & S Parkcrest St, Gilbert X
+PARSED: {'fare': 31.09, 'pickup_miles': 1.2, 'trip_miles': 34.8, 'total_miles': 36.0, 'pickup_minutes': 1, 'total_minutes': 8}
+
+[VALID STR DETECTED - Payload 574]
+RAW OCR: 17 3:37 Phoeni Scottsdale Tempe Guabalupe 4.95 10 2 uberX Exclusive $31.09 $27.43/active hr (est.) 7 min (1.2 mi) +$5.75 included Chandler Mesa l hr (34.8 mi) E Indian School Rd&N4th St. Phoenix Avg. wait time at pickup: 1 min A Long trip (45+ min) E Penedes Dr & S Parkcrest St, Gilbert Accept ll $ 81 < Arizo
+PARSED: {'fare': 81.0, 'pickup_miles': 1.2, 'trip_miles': 34.8, 'total_miles': 36.0, 'pickup_minutes': 1, 'total_minutes': 8}
+
+[VALID STR DETECTED - Payload 575]
+RAW OCR: |3:37 Phoeni Scottsdale Tempe t Guadalupe 2 UberX Exclusive 4.95 10 $31.09 $27.43/active hr (est.) 7 min (1.2 mi) +$5.75 included Chandler Mesa l hr (34.8 mi) E Indian School Rd&N 4th St. Phoenix Avg. wait time at pickup: 1 min A Long trip (45+ min) E Penedes Dr & S Parkcrest St, Gilbert Accept ll $ 81 < Arizo
+PARSED: {'fare': 81.0, 'pickup_miles': 1.2, 'trip_miles': 34.8, 'total_miles': 36.0, 'pickup_minutes': 1, 'total_minutes': 8}
+
+[VALID STR DETECTED - Payload 576]
+RAW OCR: |3:37 Phoeni Scottsdale Tempe Guaalupe 10 2 uberX Exclusive $31.09 $27.43/active hr (est.) 7 min (1.2 mi) t 4.95 9 +$5.75 included Chandler Mesa l hr (34.8 mi) E Indian School Rd & N 4th St, Phoenix Avg. wait time at pickup: 1 min A Long trip (45+ min) E Penedes Dr & S Parkcrest St, Gilbert Accept ll $ 81 < Arizo
+PARSED: {'fare': 81.0, 'pickup_miles': 1.2, 'trip_miles': 34.8, 'total_miles': 36.0, 'pickup_minutes': 1, 'total_minutes': 8}
+
+[VALID STR DETECTED - Payload 577]
+RAW OCR: |3:37 Phoeni Scottsdale Tempe Guaalupe 4.95 10 2 UberX Exclusive $31.09 $27.43/active hr (est.) 7 min (1.2 mi) Chandler +$5.75 included Mesa Avg. wait time at pickup: 1 min l hr (34.8 mi) A Long trip (45+ min) E Indian School Rd &N4th St, Phoenix Accept ll $ 81 X X E Penedes Dr & S Parkcrest St, Gilbert < Arizo
+PARSED: {'fare': 81.0, 'pickup_miles': 1.2, 'trip_miles': 34.8, 'total_miles': 36.0, 'pickup_minutes': 1, 'total_minutes': 8}
+
+[VALID STR DETECTED - Payload 588]
+RAW OCR: UberX Exclusive $12.08 $32.95/active hr (est.) 4.80 +$5.00 included 14 min (6.0 mi) ... 7 mins (1.8 mi) ... Accept
+PARSED: {'fare': 12.08, 'pickup_miles': 1.8, 'trip_miles': 6.0, 'total_miles': 7.8, 'pickup_minutes': 7, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 589]
+RAW OCR: UberX Exclusive Verified ✔ $11.50 $32.95/active hr (est.) 4.80 +$4.00 included 15 mins (5.0 mi) trip ... 4 mins (1.6 mi) away ... Accept
+PARSED: {'fare': 11.5, 'pickup_miles': 1.6, 'trip_miles': 5.0, 'total_miles': 6.6, 'pickup_minutes': 4, 'total_minutes': 19}
+
+[VALID STR DETECTED - Payload 590]
+RAW OCR: Trip Radar UberX $22.40 45 mins (23.2 mi) Total Match
+PARSED: {'fare': 22.4, 'pickup_miles': 0.0, 'trip_miles': 23.2, 'total_miles': 23.2, 'pickup_minutes': 0, 'total_minutes': 45}
+
+[VALID STR DETECTED - Payload 593]
+RAW OCR: UberX Exclusive $12.08 $32.95/active hr (est.) 4.80 +$5.00 included 14 min (6.0 mi) ... 7 mins (1.8 mi) ... Accept
+PARSED: {'fare': 12.08, 'pickup_miles': 1.8, 'trip_miles': 6.0, 'total_miles': 7.8, 'pickup_minutes': 7, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 594]
+RAW OCR: UberX Exclusive Verified ✔ $11.50 $32.95/active hr (est.) 4.80 +$4.00 included 15 mins (5.0 mi) trip ... 4 mins (1.6 mi) away ... Accept
+PARSED: {'fare': 11.5, 'pickup_miles': 1.6, 'trip_miles': 5.0, 'total_miles': 6.6, 'pickup_minutes': 4, 'total_minutes': 19}
+
+[VALID STR DETECTED - Payload 595]
+RAW OCR: Trip Radar UberX $22.40 45 mins (23.2 mi) Total Match
+PARSED: {'fare': 22.4, 'pickup_miles': 0.0, 'trip_miles': 23.2, 'total_miles': 23.2, 'pickup_minutes': 0, 'total_minutes': 45}
+
+[VALID STR DETECTED - Payload 653]
+RAW OCR: 3:46 → Uber 2 UberX Exclusive $12 $0 $20.00/active hr (est.) * 4.92 9 +$3.50 included 17 min (5.7 mi) E Puget Ave &N 7th St, Phoenix Avg. wait time at pickup: 1 min 18 mins (8.0 mi) N Cave Creek Rd, Phoenix 9 l82 Accept X
+PARSED: {'fare': 12.0, 'pickup_miles': 5.7, 'trip_miles': 8.0, 'total_miles': 13.7, 'pickup_minutes': 1, 'total_minutes': 19}
+
+[VALID STR DETECTED - Payload 654]
+RAW OCR: 3:46 → Uber 2 UberX Exclusive $12 $0 $20.00/active hr (est.) * 4.92 4 +$3.50 included 17 min (5.7 mi) E Puget Ave & N 7th St, Phoenix Avg. wait time at pickup: l min 18 mins (8.0 mi) N Cave Creek Rd, Phoenix 9 l82 Accept X
+PARSED: {'fare': 12.0, 'pickup_miles': 5.7, 'trip_miles': 8.0, 'total_miles': 13.7, 'pickup_minutes': 17, 'total_minutes': 35}
+
+[VALID STR DETECTED - Payload 655]
+RAW OCR: 3:46 +30% Uber +20% D $12 +30% +30% $0 40% N Busy s0% 2 uberx Exclusive Encanto 17 min (5.7 mi) $20.00/active hr (est.) WBusy * 4.92 9 +$3.50 included Busy field E Puget Ave & N 7th St, Phoenix Avg. wait time at pickup: l min 18 mins (8.0 mi) N Cave Creek Rd, Phoenix +30% Accept 5 ll 82 < Bronze Boot 2 +3 + X Palms
+PARSED: {'fare': 12.0, 'pickup_miles': 5.7, 'trip_miles': 8.0, 'total_miles': 13.7, 'pickup_minutes': 17, 'total_minutes': 35}
+
+[VALID STR DETECTED - Payload 656]
+RAW OCR: 3:47 +30% Uber +20% D $12 +30% +30% $0 40% N Busy s0% 2 uberx Exclusive Encanto 17 min (5.7 mi) $20.00/active hr (est.) N Busy * 4.92 9 +$3.50 included Busy field E Puget Ave & N 7th St, Phoenix Avg. wait time at pickup: l min 18 mins (8.0 mi) N Cave Creek Rd, Phoenix +30% Accept 5 ll 82 < Bronze Boot 2 +3 + X Palms
+PARSED: {'fare': 12.0, 'pickup_miles': 5.7, 'trip_miles': 8.0, 'total_miles': 13.7, 'pickup_minutes': 17, 'total_minutes': 35}
+
+[VALID STR DETECTED - Payload 657]
+RAW OCR: 3:47 +30% Uber +20% $15 D * 5.00 +30% $0 40% N Busy 0% UberX Reserve Exclusive 7 min (14 mi) Encanto Verified 9 +$4.00 included WBusy L Reservation 20 mins (11.1 mi) +30% S 25th Ln & W Carter Rd, Phoenix Accept 5 ll 82 N Central Ave & W Osborn Rd, Phoenix < Bronze Boot +3+ X 2 Palms P
+PARSED: {'fare': 15.0, 'pickup_miles': 11.1, 'trip_miles': 14.0, 'total_miles': 25.1, 'pickup_minutes': 7, 'total_minutes': 27}
+
+[VALID STR DETECTED - Payload 658]
+RAW OCR: 3:47 +30% Uber +20% $15 D * 5.00 +30% UberXReserve $0 N Busy s0% 40% 7 min (1.4 mi) Encanto Verified 9 +$4.00 included L Reservation WBusy Exclusive 5 ll 82 +30% S 25th Ln & W Carter Rd, Phoenix Accept Bronze Boot N Central Ave & W Osborn Rd, Phoenix 20 mins (11.1 mi) +3 + X 2 Palms
+PARSED: {'fare': 15.0, 'pickup_miles': 1.4, 'trip_miles': 11.1, 'total_miles': 12.5, 'pickup_minutes': 7, 'total_minutes': 27}
+
+[VALID STR DETECTED - Payload 659]
+RAW OCR: 3:47 +30% Uber +20% $15 D * 5.00 +30% $0 40% N Busy 0% UberX Reserve Exclusive 7 min (1.4 mi) Encanto Verified ) +$4.00 included W Busy L Reservation 20 mins (11.1 mi) +30% S 25th Ln & W Carter Rd, Phoenix Accept .ll 82 N Central Ave & VW Osborn Rd, Phoenix Bronze Boot +3+ X 2 Palms P
+PARSED: {'fare': 15.0, 'pickup_miles': 1.4, 'trip_miles': 11.1, 'total_miles': 12.5, 'pickup_minutes': 7, 'total_minutes': 27}
+
+[VALID STR DETECTED - Payload 689]
+RAW OCR: UberX Exclusive $12.08 $32.95/active hr (est.) 4.80 +$5.00 included 14 min (6.0 mi) ... 7 mins (1.8 mi) ... Accept
+PARSED: {'fare': 12.08, 'pickup_miles': 1.8, 'trip_miles': 6.0, 'total_miles': 7.8, 'pickup_minutes': 7, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 690]
+RAW OCR: UberX Exclusive Verified ✔ $11.50 $32.95/active hr (est.) 4.80 +$4.00 included 15 mins (5.0 mi) trip ... 4 mins (1.6 mi) away ... Accept
+PARSED: {'fare': 11.5, 'pickup_miles': 1.6, 'trip_miles': 5.0, 'total_miles': 6.6, 'pickup_minutes': 4, 'total_minutes': 19}
+
+[VALID STR DETECTED - Payload 691]
+RAW OCR: Trip Radar UberX $22.40 45 mins (23.2 mi) Total Match
+PARSED: {'fare': 22.4, 'pickup_miles': 0.0, 'trip_miles': 23.2, 'total_miles': 23.2, 'pickup_minutes': 0, 'total_minutes': 45}
+
+[VALID STR DETECTED - Payload 694]
+RAW OCR: UberX Exclusive $12.08 $32.95/active hr (est.) 4.80 +$5.00 included 14 min (6.0 mi) ... 7 mins (1.8 mi) ... Accept
+PARSED: {'fare': 12.08, 'pickup_miles': 1.8, 'trip_miles': 6.0, 'total_miles': 7.8, 'pickup_minutes': 7, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 695]
+RAW OCR: UberX Exclusive Verified ✔ $11.50 $32.95/active hr (est.) 4.80 +$4.00 included 15 mins (5.0 mi) trip ... 4 mins (1.6 mi) away ... Accept
+PARSED: {'fare': 11.5, 'pickup_miles': 1.6, 'trip_miles': 5.0, 'total_miles': 6.6, 'pickup_minutes': 4, 'total_minutes': 19}
+
+[VALID STR DETECTED - Payload 696]
+RAW OCR: Trip Radar UberX $22.40 45 mins (23.2 mi) Total Match
+PARSED: {'fare': 22.4, 'pickup_miles': 0.0, 'trip_miles': 23.2, 'total_miles': 23.2, 'pickup_minutes': 0, 'total_minutes': 45}
+
+[VALID STR DETECTED - Payload 699]
+RAW OCR: UberX Exclusive $12.08 $32.95/active hr (est.) 4.80 +$5.00 included 14 min (6.0 mi) ... 7 mins (1.8 mi) ... Accept
+PARSED: {'fare': 12.08, 'pickup_miles': 1.8, 'trip_miles': 6.0, 'total_miles': 7.8, 'pickup_minutes': 7, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 700]
+RAW OCR: UberX Exclusive Verified ✔ $11.50 $32.95/active hr (est.) 4.80 +$4.00 included 15 mins (5.0 mi) trip ... 4 mins (1.6 mi) away ... Accept
+PARSED: {'fare': 11.5, 'pickup_miles': 1.6, 'trip_miles': 5.0, 'total_miles': 6.6, 'pickup_minutes': 4, 'total_minutes': 19}
+
+[VALID STR DETECTED - Payload 701]
+RAW OCR: Trip Radar UberX $22.40 45 mins (23.2 mi) Total Match
+PARSED: {'fare': 22.4, 'pickup_miles': 0.0, 'trip_miles': 23.2, 'total_miles': 23.2, 'pickup_minutes': 0, 'total_minutes': 45}
+
+[VALID STR DETECTED - Payload 704]
+RAW OCR: UberX Exclusive $12.08 $32.95/active hr (est.) 4.80 +$5.00 included 14 min (6.0 mi) ... 7 mins (1.8 mi) ... Accept
+PARSED: {'fare': 12.08, 'pickup_miles': 1.8, 'trip_miles': 6.0, 'total_miles': 7.8, 'pickup_minutes': 7, 'total_minutes': 21}
+
+[VALID STR DETECTED - Payload 705]
+RAW OCR: UberX Exclusive Verified ✔ $11.50 $32.95/active hr (est.) 4.80 +$4.00 included 15 mins (5.0 mi) trip ... 4 mins (1.6 mi) away ... Accept
+PARSED: {'fare': 11.5, 'pickup_miles': 1.6, 'trip_miles': 5.0, 'total_miles': 6.6, 'pickup_minutes': 4, 'total_minutes': 19}
+
+[VALID STR DETECTED - Payload 706]
+RAW OCR: Trip Radar UberX $22.40 45 mins (23.2 mi) Total Match
+PARSED: {'fare': 22.4, 'pickup_miles': 0.0, 'trip_miles': 23.2, 'total_miles': 23.2, 'pickup_minutes': 0, 'total_minutes': 45}
+
 --- SUMMARY ---
-Total Payloads Analyzed: 255
-Valid Offers Parsed: 52
+Total Payloads Analyzed: 712
+Valid Offers Parsed: 121
 Potential False Flags Caught: 0

@@ -1,4 +1,4 @@
-const WS_URL = "ws://localhost:8000/ws";
+const WS_URL = "wss://phoenix-brain.onrender.com/ws";
 
 let socket;
 const connectionPulse = document.getElementById("connection-pulse");

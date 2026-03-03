@@ -9,7 +9,7 @@ import java.io.IOException
 
 object BrainClient {
     private val client = OkHttpClient()
-    private var baseUrl = "http://192.168.0.52:8000"
+    private var baseUrl = "https://phoenix-brain.onrender.com"
 
     fun updateServerUrl(ip: String) {
         baseUrl = "http://$ip:8000"
